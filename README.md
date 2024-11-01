@@ -1,4 +1,5 @@
-<![image](https://github.com/user-attachments/assets/3b00a46c-71eb-4d2d-95ba-fd3ffa2d0a55) width="200" height="100">
+
+<img src="https://github.com/user-attachments/assets/3b00a46c-71eb-4d2d-95ba-fd3ffa2d0a55" alt="Sample Image" width="400" height="300">
 
 ![image](https://github.com/user-attachments/assets/8926028e-12f0-4d3f-9837-b647d4b19845) ![image](https://github.com/user-attachments/assets/a3c512be-7fb8-40eb-9219-d24436c6bf65) 
 
