@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Nutrition Tracker </string>
+
+    <string-array name="Nutrition_Type">
+
+        <item>Carbs</item>
+        <item>Protein</item>
+        <item>Fats</item>
+
+    </string-array>
+
+</resources>

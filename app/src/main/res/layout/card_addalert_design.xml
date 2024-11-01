@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".SecondPage">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/addLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/addlayoutbackground"
+
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/foodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="40dp">
+
+                <ImageView
+                    android:id="@+id/foodNameIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:src="@mipmap/sppon_fork_icon" />
+
+                <EditText
+                    android:id="@+id/nameFoodInput"
+                    android:layout_width="220dp"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:hint="What is the food?"
+                    android:inputType="text"
+                    android:textColor="?attr/colorOnPrimary"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/FoodType"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="40dp">
+
+                <ImageView
+                    android:id="@+id/foodTypeIcon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/choose_icon" />
+
+                <Spinner
+                    android:id="@+id/itemName"
+                    android:layout_width="205dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/foodAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="40dp"
+                android:paddingBottom="30dp">
+
+                <ImageView
+                    android:id="@+id/foodAmountIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/bowl_icon" />
+
+                <EditText
+                    android:id="@+id/foodAmountInput"
+                    android:layout_width="220dp"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:hint="How many calories?"
+                    android:inputType="number"
+                    android:textSize="16sp"
+                    android:textColor="?attr/colorOnPrimary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
